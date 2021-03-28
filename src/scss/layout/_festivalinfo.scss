@@ -1,0 +1,39 @@
+.festivalInfo{
+    padding: $separacion;
+    margin: 0 auto;
+    @include desktop{
+        padding: $separacion 0;
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: $separacion;
+    }
+
+    img{
+        @include desktop{
+            grid-column: 1/2;
+        }
+    }
+}
+
+.festivalInfo__texto{
+    padding: 2rem 0;
+
+    @include desktop{
+        grid-column: 2/4;
+    }
+    h2{
+        font-family: $regular;
+        margin-bottom: 4rem;
+    }
+
+    .festivalInfo__texto-fecha{
+        color: $rosa;
+        font-weight: $bold;
+        margin-bottom: 4rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line UP</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Rock & EDM Festival
+                    <span>Julio 2021 Guadalajara México</span>
+                </h2>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <div class="festivalInfo">
+        <img src="./build/img/imagen_vocalista.jpg" alt="Foto de Vocalista">
+        <div class="festivalInfo__texto">
+            <h2>Rock & EDM Festival</h1>
+            <p class="festivalInfo__texto-fecha">Julio 2021 Guadalajara, México</p>   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas, maxime aperiam dolores nam in vitae inventore quod delectus, libero praesentium id iusto beatae natus explicabo! Sunt dignissimos nihil fuga.</p>
+        </div>
+    </div>
+
+    <section id="lineup" class="lineup">
+        <h3>LineUP</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Metallica</span></li>
+                    <li>22:00 | <span>Pearl Jam</span></li>
+                    <li>20:00 | <span>Kron</span></li>
+                    <li>19:00 | <span>Muse</span></li>
+                    <li>18:00 | <span>Lorem</span></li>
+                    <li>17:00 | <span>Ipsum</span></li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Deadmau5</span></li>
+                    <li>22:00 | <span>Tiesto</span></li>
+                    <li>20:00 | <span>Kron</span></li>
+                    <li>19:00 | <span>Muse</span></li>
+                    <li>18:00 | <span>Lorem</span></li>
+                    <li>17:00 | <span>Ipsum</span></li>
+                </ul>
+            </div>
+        </div>
+        <p class="dia">Sábado 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Metallica</span></li>
+                    <li>22:00 | <span>Pearl Jam</span></li>
+                    <li>20:00 | <span>Kron</span></li>
+                    <li>19:00 | <span>Muse</span></li>
+                    <li>18:00 | <span>Lorem</span></li>
+                    <li>17:00 | <span>Ipsum</span></li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Deadmau5</span></li>
+                    <li>22:00 | <span>Tiesto</span></li>
+                    <li>20:00 | <span>Kron</span></li>
+                    <li>19:00 | <span>Muse</span></li>
+                    <li>18:00 | <span>Lorem</span></li>
+                    <li>17:00 | <span>Ipsum</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h3>Galeria</h3>
+        <ul class="galeria-imagenes">
+            <!-- Aqui se colocaran las imagenes de galeria con JS -->
+        </ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase de 1 día</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a Todos los Escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Comida y bebida</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Precio: $100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+
+            <div class="premium plan">
+                <p>Pase de 2 dias</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a Todos los Escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Comida y bebida</td>
+                        </tr>
+                        <tr>
+                            <td>Camisa del evento</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso VIP</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Precio: $100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>Rock & EDM Festival. Todos los derechos reservados</p>
+    </footer>
+    <script src="build/js/bundle.js"></script>
+</body>
+</html>
